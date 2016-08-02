@@ -21,6 +21,7 @@
 		F43412421D503F2A00B2A6A7 /* aViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43412411D503F2A00B2A6A7 /* aViewController.m */; };
 		F43412451D503F6A00B2A6A7 /* MTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43412441D503F6A00B2A6A7 /* MTTabBarController.m */; };
 		F43412481D503F9600B2A6A7 /* MTNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43412471D503F9600B2A6A7 /* MTNaviController.m */; };
+		F434124B1D50751200B2A6A7 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F434124A1D50751200B2A6A7 /* Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		F43412441D503F6A00B2A6A7 /* MTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTabBarController.m; sourceTree = "<group>"; };
 		F43412461D503F9600B2A6A7 /* MTNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNaviController.h; sourceTree = "<group>"; };
 		F43412471D503F9600B2A6A7 /* MTNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTNaviController.m; sourceTree = "<group>"; };
+		F43412491D50751200B2A6A7 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		F434124A1D50751200B2A6A7 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				F43412441D503F6A00B2A6A7 /* MTTabBarController.m */,
 				F43412461D503F9600B2A6A7 /* MTNaviController.h */,
 				F43412471D503F9600B2A6A7 /* MTNaviController.m */,
+				F43412491D50751200B2A6A7 /* Utils.h */,
+				F434124A1D50751200B2A6A7 /* Utils.m */,
 				F434120D1D5030DA00B2A6A7 /* Main.storyboard */,
 				F43412101D5030DA00B2A6A7 /* Assets.xcassets */,
 				F43412121D5030DA00B2A6A7 /* LaunchScreen.storyboard */,
@@ -303,6 +308,7 @@
 				F43412451D503F6A00B2A6A7 /* MTTabBarController.m in Sources */,
 				F434123C1D503EFE00B2A6A7 /* cViewController.m in Sources */,
 				F434123F1D503F1100B2A6A7 /* dViewController.m in Sources */,
+				F434124B1D50751200B2A6A7 /* Utils.m in Sources */,
 				F434120C1D5030DA00B2A6A7 /* ViewController.m in Sources */,
 				F43412421D503F2A00B2A6A7 /* aViewController.m in Sources */,
 				F43412391D50339200B2A6A7 /* bViewController.m in Sources */,
