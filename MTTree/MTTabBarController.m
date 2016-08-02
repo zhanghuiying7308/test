@@ -24,10 +24,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.tabBar.tintColor = [UIColor colorWithRed:0.000 green:0.502 blue:0.251 alpha:1.000];
-    
+    [self setControllers];
     
 }
-
+-(void)setControllers{
+    [self addChildViewController:[aViewController new] imageName:@"产品管理-OFF" selectedImageName:@"产品管理" title:@"产品管理"];
+    [self addChildViewController:[bViewController new] imageName:@"订单-OFF" selectedImageName:@"订单" title:@"订单"];
+    [self addChildViewController:[cViewController new] imageName:@"店铺-OFF" selectedImageName:@"店铺" title:@"店铺"];
+    [self addChildViewController:[dViewController new] imageName:@"卡券-OFF" selectedImageName:@"卡券" title:@"券码"];
+}
+-(void)addChildViewController:(UIViewController *)childController imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName title:(NSString *)title{
+    MTNaviController *navi = [[MTNaviController alloc]initWithRootViewController:childController];
+    [navi.navigationBar setBackgroundImage:[Utils createImageWithColor:[UIColor colorWithRed:1.000 green:0.502 blue:0.000 alpha:1.000]] forBarMetrics:UIBarMetricsDefault];
+    navi.navigationBar.tintColor = [UIColor whiteColor];
+    navi.navigationBar.shadowImage = [[UIImage alloc]init];
+    navi.navigationItem.title = title;
+    childController.tabBarItem.image = [UIImage imageNamed:imageName];
+    childController.tabBarItem.selectedImage = [UIImage imageNamed:selectedImageName];
+    childController.tabBarItem.title = title;
+    [self addChildViewController:navi];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
