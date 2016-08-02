@@ -15,6 +15,12 @@
 		F43412141D5030DA00B2A6A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43412121D5030DA00B2A6A7 /* LaunchScreen.storyboard */; };
 		F434121F1D5030DA00B2A6A7 /* MTTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F434121E1D5030DA00B2A6A7 /* MTTreeTests.m */; };
 		F434122A1D5030DA00B2A6A7 /* MTTreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F43412291D5030DA00B2A6A7 /* MTTreeUITests.m */; };
+		F43412391D50339200B2A6A7 /* bViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43412381D50339200B2A6A7 /* bViewController.m */; };
+		F434123C1D503EFE00B2A6A7 /* cViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F434123B1D503EFE00B2A6A7 /* cViewController.m */; };
+		F434123F1D503F1100B2A6A7 /* dViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F434123E1D503F1100B2A6A7 /* dViewController.m */; };
+		F43412421D503F2A00B2A6A7 /* aViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43412411D503F2A00B2A6A7 /* aViewController.m */; };
+		F43412451D503F6A00B2A6A7 /* MTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43412441D503F6A00B2A6A7 /* MTTabBarController.m */; };
+		F43412481D503F9600B2A6A7 /* MTNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43412471D503F9600B2A6A7 /* MTNaviController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		F43412251D5030DA00B2A6A7 /* MTTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43412291D5030DA00B2A6A7 /* MTTreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTreeUITests.m; sourceTree = "<group>"; };
 		F434122B1D5030DA00B2A6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43412371D50339200B2A6A7 /* bViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bViewController.h; sourceTree = "<group>"; };
+		F43412381D50339200B2A6A7 /* bViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bViewController.m; sourceTree = "<group>"; };
+		F434123A1D503EFE00B2A6A7 /* cViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cViewController.h; sourceTree = "<group>"; };
+		F434123B1D503EFE00B2A6A7 /* cViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cViewController.m; sourceTree = "<group>"; };
+		F434123D1D503F1100B2A6A7 /* dViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dViewController.h; sourceTree = "<group>"; };
+		F434123E1D503F1100B2A6A7 /* dViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dViewController.m; sourceTree = "<group>"; };
+		F43412401D503F2A00B2A6A7 /* aViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aViewController.h; sourceTree = "<group>"; };
+		F43412411D503F2A00B2A6A7 /* aViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aViewController.m; sourceTree = "<group>"; };
+		F43412431D503F6A00B2A6A7 /* MTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTabBarController.h; sourceTree = "<group>"; };
+		F43412441D503F6A00B2A6A7 /* MTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTabBarController.m; sourceTree = "<group>"; };
+		F43412461D503F9600B2A6A7 /* MTNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNaviController.h; sourceTree = "<group>"; };
+		F43412471D503F9600B2A6A7 /* MTNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTNaviController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,18 @@
 				F43412081D5030DA00B2A6A7 /* AppDelegate.m */,
 				F434120A1D5030DA00B2A6A7 /* ViewController.h */,
 				F434120B1D5030DA00B2A6A7 /* ViewController.m */,
+				F43412401D503F2A00B2A6A7 /* aViewController.h */,
+				F43412411D503F2A00B2A6A7 /* aViewController.m */,
+				F43412371D50339200B2A6A7 /* bViewController.h */,
+				F43412381D50339200B2A6A7 /* bViewController.m */,
+				F434123A1D503EFE00B2A6A7 /* cViewController.h */,
+				F434123B1D503EFE00B2A6A7 /* cViewController.m */,
+				F434123D1D503F1100B2A6A7 /* dViewController.h */,
+				F434123E1D503F1100B2A6A7 /* dViewController.m */,
+				F43412431D503F6A00B2A6A7 /* MTTabBarController.h */,
+				F43412441D503F6A00B2A6A7 /* MTTabBarController.m */,
+				F43412461D503F9600B2A6A7 /* MTNaviController.h */,
+				F43412471D503F9600B2A6A7 /* MTNaviController.m */,
 				F434120D1D5030DA00B2A6A7 /* Main.storyboard */,
 				F43412101D5030DA00B2A6A7 /* Assets.xcassets */,
 				F43412121D5030DA00B2A6A7 /* LaunchScreen.storyboard */,
@@ -270,9 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43412451D503F6A00B2A6A7 /* MTTabBarController.m in Sources */,
+				F434123C1D503EFE00B2A6A7 /* cViewController.m in Sources */,
+				F434123F1D503F1100B2A6A7 /* dViewController.m in Sources */,
 				F434120C1D5030DA00B2A6A7 /* ViewController.m in Sources */,
+				F43412421D503F2A00B2A6A7 /* aViewController.m in Sources */,
+				F43412391D50339200B2A6A7 /* bViewController.m in Sources */,
 				F43412091D5030DA00B2A6A7 /* AppDelegate.m in Sources */,
 				F43412061D5030DA00B2A6A7 /* main.m in Sources */,
+				F43412481D503F9600B2A6A7 /* MTNaviController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +534,7 @@
 				F43412301D5030DA00B2A6A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F43412311D5030DA00B2A6A7 /* Build configuration list for PBXNativeTarget "MTTreeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +543,7 @@
 				F43412331D5030DA00B2A6A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F43412341D5030DA00B2A6A7 /* Build configuration list for PBXNativeTarget "MTTreeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +552,7 @@
 				F43412361D5030DA00B2A6A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
